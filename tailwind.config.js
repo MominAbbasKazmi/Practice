@@ -30,6 +30,21 @@ module.exports = {
 
     extend: {
 
+
+      boxShadow: {
+        'inner-strong': 'inset 150px 20px 200px rgba(0, 0, 0, 0.8)',
+        'inner-strong-blue': 'inset 150px 20px 200px rgba(0, 0, 255, 0.8)',
+        'inner-strong-orange': 'inset 150px 20px 200px rgba(215, 86, 35, 0.8)',
+        'inner-soft': 'inset 0 2px 4px rgba(0, 0, 0, 0.1)',
+        'inner-deep': 'inset 0 4px 6px rgba(0, 0, 0, 0.2), inset 0 -4px 6px rgba(0, 0, 0, 0.15)',
+        'inner-outer': 'inset 0 4px 6px rgba(0, 0, 0, 0.3), 0 4px 6px rgba(0, 0, 0, 0.1)'
+      },
+
+
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'], // Use 'Inter' as the primary font
+      },
+
      
       screens: {
         'vs': '480px',  // Custom screen for extra small devices
@@ -39,7 +54,10 @@ module.exports = {
       backgroundImage: {
         'custom-radial': 'radial-gradient(46.35% 478.71% at 50% 62.85%, #E3E3E3 0%, #D7FDF4 73.4%)',
       },
-
+      colors: {
+        'glass-dark-solid': '#333A4C',
+        'light black': '#1E232E', // Replace with your actual color code
+      },
 
 
     },
